@@ -1,0 +1,335 @@
+body {
+    background: linear-gradient( to top right, #4A66F7, #ec77ff);
+    background-repeat: no-repeat;
+    height: 340vh;
+}
+
+.container {
+    width: 1000px;
+    height: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.img-1 {
+    float: left;
+    margin: 10px 10px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #4A66F7;
+    margin-right: 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card-1 {
+    display: inline-block;
+    padding: 10px 10px;
+    width: 400px;
+    height: 350px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+}
+
+.header-1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-1 {
+    height: 20px;
+    width: 100px;
+    padding: 5px 10px 30px 10px;
+    margin: 15px 10px;
+    text-align: center;
+    color: beige;
+    background: linear-gradient(to top right, #4A66F7, #ec77ff);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #4A66F7;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-2 {
+    height: 20px;
+    width: 100px;
+    padding: 5px 10px 30px 10px;
+    margin: 15px 10px;
+    text-align: center;
+    color: beige;
+    background: linear-gradient(to top right, #4A66F7, #ec77ff);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #4A66F7;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-3 {
+    height: 20px;
+    width: 100px;
+    padding: 5px 10px 30px 10px;
+    margin: 15px 10px;
+    text-align: center;
+    color: beige;
+    background: linear-gradient(to top right, #4A66F7, #ec77ff);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #4A66F7;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.box-1 {
+    vertical-align: top;
+}
+
+.btn:hover {
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.card-2 {
+    justify-content: center;
+    padding-bottom: 40px;
+    vertical-align: top;
+}
+
+h3 {
+    text-align: center;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    border: 3px solid #4A66F7;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #ec77ff;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    vertical-align: top;
+}
+
+.box-1 {
+    margin-left: 20px;
+}
+
+.box-2 {
+    margin-left: 68px;
+}
+
+.box-3 {
+    margin-left: 68px;
+}
+
+.card-3 {
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.header-2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.img-2,
+.img-3 {
+    border: 3px solid #4A66F7;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #ec77ff;
+    margin-top: 30px;
+}
+
+.img-2 {
+    margin-left: 20px;
+}
+
+.img-3 {
+    margin-left: 30px;
+}
+
+.card-4 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-4,
+.img-5,
+.img-6 {
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #4A66F7;
+}
+
+.img-4 {
+    margin-left: 20px;
+}
+
+.img-5 {
+    margin-left: 35px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.img-6 {
+    margin-left: 55px;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.box-7 {
+    position: relative;
+    width: 475px;
+    height: 280px;
+    display: inline-block;
+    border: 3px solid #4A66F7;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #ec77ff;
+    left: 475px;
+    bottom: 275px;
+    padding: 10px 10px 10px 10px;
+}
+
+.box-7 h3 {
+    text-align: center;
+}
+
+@media(max-width: 1300px) {
+    .img-5 {
+        width: 250px;
+        height: 300px;
+        margin-left: 58px;
+        margin-bottom: 20px;
+        display: inline;
+    }
+    .img-6 {
+        width: 250px;
+        height: 300px;
+        margin-left: 58px;
+        margin-bottom: 20px;
+        display: inline;
+    }
+    .img-4 {
+        width: 250px;
+        height: 300px;
+        margin-bottom: 20px;
+        margin-left: 45px;
+    }
+    .box-7 {
+        display: block;
+        position: unset;
+        width: 870px;
+        height: 200px;
+        margin-left: 5%;
+    }
+    .container {
+        height: 1930px;
+    }
+    body {
+        height: 360vh;
+    }
+}
+
+@media (max-width:1200px) {
+    .img-2 {
+        margin-left: 250px;
+    }
+    .img-3 {
+        margin-left: 220px;
+    }
+    .container {
+        height: 2350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-1 {
+        margin-left: 150px;
+        margin-bottom: 40px;
+    }
+    .img-1 {
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+    .box-1 {
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .box-3 {
+        margin-left: 220px;
+    }
+    .img-2 {
+        margin-left: 120px;
+        width: 430px;
+        height: 480px;
+    }
+    .img-3 {
+        margin-left: 110px;
+    }
+    .container {
+        height: 3430px;
+    }
+    body {
+        height: 500vh;
+    }
+    .img-4 {
+        margin-left: 60px;
+    }
+    .img-5 {
+        margin-left: 70px;
+    }
+    .img-6 {
+        margin-left: 230px;
+    }
+    .box-7 {
+        width: 630px;
+        height: 280px;
+    }
+}
+
+@media (max-width:769px) {
+    .card-1 {
+        margin-left: 60px;
+    }
+    .img-1 {
+        margin-left: 100px;
+        width: 300px;
+        height: 300px;
+    }
+    .box-1,
+    .box-2,
+    .box-3 {
+        margin-left: 130px;
+        margin-bottom: 20px;
+    }
+    .img-2 {
+        margin-left: 20px;
+    }
+    .img-3 {
+        margin-left: 13px;
+    }
+    .container {
+        height: 4010px;
+    }
+    body {
+        height: 580vh;
+    }
+    .img-4,
+    .img-5,
+    .img-6 {
+        margin-left: 130px;
+    }
+    .box-7 {
+        width: 450px;
+        height: 310px;
+    }
+}
